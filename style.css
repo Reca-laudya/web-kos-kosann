@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2196F3;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#searchBar {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+#promo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: #e0f7fa;
+  padding: 10px;
+}
+
+.promo-card {
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#kosList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.kos-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.kos-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: #f1f1f1;
+  padding: 10px;
+}
